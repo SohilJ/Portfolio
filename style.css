@@ -1,0 +1,160 @@
+#header {
+    visibility: hidden;
+}
+
+/* Based on Adam Kaplan's grid.css Adam Kaplan: www.adamkaplan.me/grid */
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Hind', serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: #000000;
+    line-height: 4.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+html {
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    font-family: 'Hind', serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: rgba(56, 55, 54, 0.50);
+    max-width: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    font-family: 'Hind', serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: rgba(56, 55, 54, 0.50);
+    max-width: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-decoration: none;
+    
+}
+
+h3 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Hind', serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: black;
+    max-width: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.0rem;
+    padding-bottom: 1.0rem;
+    text-align: center;
+}
+
+h2 a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-decoration: none;
+    
+}
+
+h2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 5rem;
+    border-color: #e3e5e8;
+}
+
+hr {
+    width:30em;
+    color:#b6b7ba;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 770px) {
+    h1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    ul {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        margin-bottom: 6.0rem;
+        margin-top: 6.0rem;
+        text-align: left;
+    }
+    ol {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        margin-bottom: 6.0rem;
+        margin-top: 6.0rem;
+        text-align: left;
+    }
+    .nav .column {
+        padding-top: 3.2rem;
+    }
+    .nav {
+        margin-top: 0rem;
+        font-size: 1.4rem;
+    }
+    .collection .column {
+        margin-bottom: 4px;
+    }
+}
+
+@media (min-width: 1240px) {
+    html {
+        font-size: 68%;
+    }
+}

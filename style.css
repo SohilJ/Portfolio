@@ -67,6 +67,14 @@ h3 a {
     
 }
 
+#particle-div {
+
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+
+}
+
 h3 a:hover {
     color: black;
     text-decoration: underline;
